@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(64, 168, 81);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerTrai{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 20px;
+}
+.headerTrai>h5{
+    margin-top: 2px;
+    color: white;
+}
+.headerTrai>p{
+    margin-top: 1px;
+    color: white;
+}
+.headerTrai>img{
+    width: 10%;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 7px;
+    color: white;
+}
+.headerPhai{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 10px;
+    margin-top: -20px;
+}
+.headerPhai>h5{
+    margin: 5px;
+    margin-top: 20px;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(39, 128, 54);
+}
+.menuTrai{
+    display: flex;
+    margin: 20px 10px;
+}
+a#dropdownMenuLink.btn.btn-secondary{
+    background-color: rgb(39, 128, 54);
+    border:none;
+}
+.noidung>h2{
+    text-align: center;
+    color: rgb(172, 164, 155);
+}
+.menuTrai>a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.menuPhai{
+    display: flex;
+    margin-right: 10px;
+}
+.dropdownn{
+    margin-top: 15px;
+}
+.menuPhai>img{
+    margin-top: -7px;
+}
+.nav{
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid gray;
+    margin-top: 50px;
+}
+.breadcrumb-item>a{
+    color: black;
+    
+}
+.noidung{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.noidungtrai{
+    width: 55%;
+}
+.noidungphai{
+    width: 30%;
+    margin-left: 70px;
+}
+.noidungphai>button{
+    margin-top: 10px;
+    background-color: rgb(39, 128, 54);
+    color: white;
+    font-size: 25px;
+}
+.banner2{
+    width: 100%;
+}
+.banner2>img{
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.support{
+    width: 18%;
+}
+.shop{
+    width: 18%;
+}
+.information{
+    width: 18%;
+}
+.myaccount{
+    width: 18%;
+}
+.stay{
+    width: 18%;
+}
+.stay>form>label>input{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.stay>button{
+    width: 78%;
+    background-color: rgb(39, 128, 54);
+}
+@media screen and (max-width: 700px) {
+    .header{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menuTrai{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    
+    .menuTrai>img{
+        width: 20%;
+    }
+    a:hover{
+        color: red;
+        background-color: aqua;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .noidung{
+        flex-direction: column;
+    }
+    .noidungphai>button{
+        font-size: 10px;
+    }
+    .noidungphai{
+        margin-left: 0px;
+    }
+}
